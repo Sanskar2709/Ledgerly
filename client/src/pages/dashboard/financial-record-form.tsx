@@ -4,7 +4,7 @@ import { useState } from "react";
 export const FinancialRecordForm = () => {
   const [description, setDescription] = useState<string>("");
   const [amount, setAmount] = useState<string>("");
-  const [category, setAmount] = useState<string>("");
+  const [category, setCategory] = useState<string>("");
   const [paymentMethod, setPaymentMethod] = useState<string>("");
 
   const { user } = useUser();
